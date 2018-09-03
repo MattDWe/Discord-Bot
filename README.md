@@ -9,7 +9,7 @@ Needs Python (Using 3.6.1)
 
 Needs pip
 
-Using pip install following libraries: discord, asyncio, psycopg2, sys, logging, time, and discord.py[voice], youtube_dl
+Using pip install following libraries: discord, asyncio, psycopg2, sys, logging, time, discord.py[voice], and youtube_dl
 
 Installing a libaries can be done by using "python -m pip install -U [library]
 
