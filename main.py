@@ -12,7 +12,7 @@ logging.basicConfig(filename="logfile.text", level=logging.DEBUG)
 class Database:
     def __init__(self):
         try:
-            self.conn = psycopg2.connect("dbname='postgres' user='postgres' host='localhost' password='123321' port='5433'")
+            self.conn = psycopg2.connect(config.postgres_server)
             self.cur = self.conn.cursor()
         except:
             print("Unable to connect to database. Please make sure database is online. Error was logged.")
