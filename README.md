@@ -11,6 +11,6 @@ Needs pip
 
 Using pip install following libraries: discord, asyncio, psycopg2, sys, logging, time, and discord.py[voice], youtube_dl
 
-Installing a libary can be done by using "python -m pip install -U [library]
+Installing a libaries can be done by using "python -m pip install -U [library]
 
 Also need to setup a sql database for images.
