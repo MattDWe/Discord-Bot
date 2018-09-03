@@ -14,3 +14,7 @@ Using pip install following libraries: discord, asyncio, psycopg2, sys, logging,
 Installing a libaries can be done by using "python -m pip install -U [library]
 
 Also need to setup a sql database for images.
+
+#Config File
+
+In order to run the bot you need to set the token and sql server information. To do this create a file named config.py and add the variables for token and postgres_server.
