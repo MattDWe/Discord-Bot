@@ -1,0 +1,5 @@
+discord==0.0.2
+discord.py[voice]
+asyncio==3.4.3
+psycopg2==2.7.3.2
+youtube_dl==2018.9.1
